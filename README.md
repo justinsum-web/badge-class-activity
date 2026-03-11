@@ -3,7 +3,7 @@
 ## Scenario
 You are building a school dashboard website. Students need to see new updates quickly.
 
-Use **Badges** to show notification counts for:
+Use badges to show notification counts for:
 
 - Messages
 - Assignments
@@ -24,4 +24,4 @@ Notifications (5)
 - CSS
 
 ## Solution
-The solution is inside `index.html`.
+The solution is inside index.html.
