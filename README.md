@@ -11,17 +11,6 @@ Example uses:
 - notifications
 - assignment counts
 
-## Files
-
-index.html → working example of Bootstrap badges  
-activity-instructions.md → classroom activity instructions
-
-## How to Use
-
-1. Download or clone the repository
-2. Open index.html in a browser
-3. Modify the numbers or badge colors
-
 ## Bootstrap Classes Used
 
 .badge → creates the badge  
