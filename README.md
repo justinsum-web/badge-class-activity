@@ -6,14 +6,14 @@ This repository demonstrates how to use the Bootstrap Badge component.
 
 Badges are small labels used to show notification counts or categories.
 
-Example uses:
+## Example uses:
 	•	unread messages
 	•	notifications
 	•	assignment counts
 	•	category tags
 	•	user status indicators
 
-Bootstrap Classes Used
+## Bootstrap Classes Used
 
 .container → centers the page content and adds responsive spacing
 
