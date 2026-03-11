@@ -1,0 +1,176 @@
+:root {
+    --bg-color: #f8fafc;
+    --card-bg: #ffffff;
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --border-color: #e2e8f0;
+
+    /* Badge Colors */
+    --badge-primary: #3b82f6;
+    --badge-success: #10b981;
+    --badge-warning: #f59e0b;
+    --badge-danger: #ef4444;
+    --badge-neutral: #94a3b8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    line-height: 1.5;
+    padding: 32px;
+}
+
+/* --- 2. Layout --- */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+p.subtitle {
+    color: var(--text-muted);
+}
+
+.section {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 32px;
+    margin-bottom: 32px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border-color);
+}
+
+h2 {
+    font-size: 17.6px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--text-muted);
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 8px;
+}
+
+/* --- 3. Badge Styles --- */
+
+/* Base Pill Badge */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 7.2px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 9999px;
+    /* Fully rounded pill shape */
+    transition: all 0.2s ease;
+}
+
+/* Color Variations */
+.badge-primary {
+    background-color: var(--badge-primary);
+    color: white;
+}
+
+.badge-success {
+    background-color: var(--badge-success);
+    color: white;
+}
+
+.badge-warning {
+    background-color: var(--badge-warning);
+    color: white;
+}
+
+.badge-danger {
+    background-color: var(--badge-danger);
+    color: white;
+}
+
+.badge-neutral {
+    background-color: var(--badge-neutral);
+    color: white;
+}
+
+/* Outline Style */
+.badge-outline {
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+}
+
+/* Notification Badge (Circular) */
+.badge-notification {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 20px;
+    padding: 0;
+    font-size: 10.4px;
+    border-radius: 50%;
+    /* Circular */
+    background-color: var(--badge-danger);
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* --- 4. Demo Layouts --- */
+
+/* Flex container for icons + badges */
+.icon-wrapper {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: #f1f5f9;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.icon-wrapper svg {
+    width: 24px;
+    height: 24px;
+    color: var(--text-main);
+}
+
+/* Grid for tags */
+.tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* Grid for status list */
+.status-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+.status-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
