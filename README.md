@@ -1,27 +1,30 @@
-# Badge Component Class Activity
+# Bootstrap Badge Component Activity
 
-## Scenario
-You are building a school dashboard website. Students need to see new updates quickly.
+This repository demonstrates how to use the Bootstrap Badge component.
 
-Use badges to show notification counts for:
+## What are Badges?
 
-- Messages
-- Assignments
-- Notifications
+Badges are small labels used to show notification counts or categories.
 
-## Task
-1. Create a webpage with 3 sections.
-2. Add a badge next to each section showing the number of new items.
-3. Style the badge to be small, rounded, and noticeable.
+Example uses:
+- unread messages
+- notifications
+- assignment counts
 
-## Example
-Messages (3)  
-Assignments (1)  
-Notifications (5)
+## Files
 
-## Technologies
-- HTML
-- CSS
+index.html → working example of Bootstrap badges  
+activity-instructions.md → classroom activity instructions
 
-## Solution
-The solution is inside index.html.
+## How to Use
+
+1. Download or clone the repository
+2. Open index.html in a browser
+3. Modify the numbers or badge colors
+
+## Bootstrap Classes Used
+
+.badge → creates the badge  
+.bg-danger → red badge  
+.bg-warning → yellow badge  
+.btn → creates a button
